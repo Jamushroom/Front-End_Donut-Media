@@ -1,0 +1,8 @@
+#info
+php composer.phar (in this directory)
+
+#install
+php composer.phar require [package]
+
+#update
+php composer.phar update
