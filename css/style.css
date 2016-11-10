@@ -24,6 +24,7 @@
 }
 }
 
+/*************************Overall CSS************************/
 html{
 	font-family: 'Hind', sans-serif;
 	color: #EEEEEE;
@@ -38,6 +39,7 @@ h1{
 
 }
 
+/******************CSS for Index.php**************************/
 .indexTitle{
 	text-align: center;
 	margin:15% auto 0 auto;
@@ -97,3 +99,59 @@ input.fb-login-button:disabled{
 .termsAndConditionsWrapper #termsAndConditions{
 text-decoration: underline;
 }
+
+/********************CSS for all subpages***********************/
+h1.subPageTitle{
+	font-size: 70px;
+	text-align: center;
+	margin:5% auto 0 auto;
+	max-width: 700px;
+}
+
+/*****************CSS for Button******************************/
+#button{
+	width: 300px;
+	height: 50px;
+	text-decoration: none;
+	border: none;
+	outline: none;
+	color: #EDEDED;
+	cursor: pointer;
+	font-size: 25px;
+	font-family: 'Hind', sans-serif;
+	text-align: center;
+	font-weight: 500;
+}
+
+.gradientcolor{
+  background: -webkit-linear-gradient(#D32353, #99163A);
+  background: -o-linear-gradient(#D32353, #99163A);
+  background: -moz-linear-gradient(#D32353, #99163A);
+  background: linear-gradient(#D32353, #99163A);
+}
+
+.gradientcolor:hover{
+  background: -webkit-linear-gradient(#D03761, #AF153F);
+  background: -o-linear-gradient(#D03761, #AF153F);
+  background: -moz-linear-gradient(#D03761, #AF153F);
+  background: linear-gradient(#D03761, #AF153F);
+}
+
+.gradientcolor:active{
+  background: -webkit-linear-gradient(#CC2251, #99163A );
+  background: -o-linear-gradient(#CC2251, #99163A );
+  background: -moz-linear-gradient(#CC2251, #99163A );
+  background: linear-gradient(#CC2251, #99163A );
+}
+/*****************CSS for termsAndConditions.php***************/
+article.articleTAC{
+	max-width:
+}
+
+/********************CSS for preface.php***********************/
+
+
+
+/**************CSS for Restaurant Choice.php******************/
+
+
