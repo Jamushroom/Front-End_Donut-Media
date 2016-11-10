@@ -27,9 +27,8 @@
   </div>
 
   <div class="termsAndConditionsWrapper">
-    <input type="checkbox" id="conditionsCheckbox">
-    <p>Ik ga akkoord met de
-    <a href="#" id="termsAndConditions">Algemene Voorwaarden.</a></p>
+    <input type="checkbox" autofocus="autofocus" id="conditionsCheckbox">
+    Ik ga akkoord met de <a href="#" id="termsAndConditions">Algemene Voorwaarden.</a>
   </div>
 
     <script type='text/javascript'>
