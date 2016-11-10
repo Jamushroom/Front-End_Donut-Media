@@ -54,6 +54,7 @@ h1{
 input.fb-login-button{
 	width: 299px;
 	height: 60px;
+	padding-right: 19px;
 	text-decoration: none;
 	border: none;
 	outline: none;

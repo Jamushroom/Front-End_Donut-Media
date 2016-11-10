@@ -22,7 +22,7 @@
 
   <div class="fb-login-wrapper">
     <a href="#">
-      <input type="button" disabled="disabled" class="fb-login-button" id="login" value="Aanmelden met Facebook   ">
+      <input type="button" disabled="disabled" class="fb-login-button" id="login" value="Aanmelden met Facebook">
     </a>
   </div>
 
