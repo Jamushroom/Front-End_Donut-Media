@@ -1,5 +1,27 @@
 @charset "utf-8";
 
+#Header {
+	width: 100%;
+	background-color: #6c1779;
+	height: 50px;
+	color: #eeeeee;
+	overflow: hidden;
+	position: relative;
+}
+#Header #icon_disclaimer {
+	margin-top: 8px;
+	margin-left: 8px;
+}
+
+#Header #icon_info {
+	margin-left: 15px;
+}
+#Header #icon_logout {
+	position: absolute;
+	right: 8px;
+	top: 8px;
+}
+
 @media (max-width:414px){
 #Header {
 	width: 100%;
