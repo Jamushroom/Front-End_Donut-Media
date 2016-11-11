@@ -100,8 +100,8 @@ h1.subPageTitle{
 }
 
 li{
-	list-style-type: disc;
-	margin-left: 20px;
+  list-style-type: disc;
+  margin-left: 20px;
 }
 
 /*****************CSS for Button******************************/
@@ -119,7 +119,6 @@ li{
   font-family: 'Hind', sans-serif;
   text-align: center;
   font-weight: 500;
-
 }
 
 .gradientcolor{
@@ -162,7 +161,7 @@ article.articleTAC{
 }
 
 span.boldText{
-	font-weight: bold;
+  font-weight: bold;
 }
 
 /******************CSS for custom Scrollbar***********************/
@@ -229,4 +228,42 @@ span.boldText{
   right: 8px;
   top: 8px;
 }
+
+.indexTitle{
+  text-align: center;
+  margin:15% auto 0 auto;
+  max-width: 95%;
+  font-size: 30px;
+}
+.fb-login-wrapper{
+  width: 100%;
+  height: 40px;
+  padding-top: 60%;
+  text-align: center;
+}
+input.fb-login-button{
+  width: 299px;
+  height: 60px;
+  padding-right: 16px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #EDEDED;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Hind', sans-serif;
+  text-align: right;
+  background-color: #3b5998;
+  background-image: url(../img/FbLogo.jpg);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+}
+.termsAndConditionsWrapper{
+  margin: 40px auto;
+  font-size: 13px;
+  clear: both;
+  max-width: 290px;
+}
+>>>>>>> refs/remotes/origin/master
 }
