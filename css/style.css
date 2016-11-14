@@ -105,7 +105,7 @@ li{
 }
 
 /*****************CSS for Button******************************/
-#button{
+.button{
   height: 40px;
   margin-top: 30px;
   padding: 0 20px 0 20px;
@@ -156,9 +156,6 @@ article.articleTAC{
   color: #222222;
 }
 
-.buttonStartEnquête{
-  float: right;
-}
 
 span.boldText{
   font-weight: bold;
@@ -200,6 +197,31 @@ span.boldText{
 }
 
 /********************CSS for preface.php***********************/
+article#prefaceP{
+	font-size: 25px;
+	margin-top: 20%;
+	padding:20px;
+	word-spacing: 1px;
+	line-height: 30px;
+	border-top: solid 1px #D32353;
+	border-right: solid 1px #D32353;
+	border-left: solid 20px #D32353;
+	border-bottom: solid 1px #D32353;
+	border-radius: 10px;
+	background-color: #EEEEEE;
+	color: #111;
+}
+
+.buttonCenter{
+	text-align: center;
+}
+
+h5{
+	text-align: center;
+	font-weight: bold;
+	margin: 20px 0 0 0;
+	font-size: 30px;
+}
 
 /**************CSS for Restaurant Choice.php******************/
 
@@ -265,5 +287,4 @@ input.fb-login-button{
   clear: both;
   max-width: 290px;
 }
->>>>>>> refs/remotes/origin/master
 }
