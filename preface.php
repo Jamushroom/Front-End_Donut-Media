@@ -16,7 +16,7 @@
       <h5>Succes!</h5>
     </article>
     <div class="buttonCenter">
-      <a href="#">
+      <a href="bestRestaurant.php">
         <input type="button" id="startE" class="button gradientcolor" title="button"
         value="Start Enquête">
       </a>
