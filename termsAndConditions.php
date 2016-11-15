@@ -138,7 +138,7 @@
         <Dspan class="boldText">isclaimer.</Dspan> Naast deze Privacy Statement is een Disclaimer van toepassing op de websites. Bekijk <a href="https://www.nhl.nl/disclaimer">hier</a> de disclaimer.
         </p>
     </article>
-    <div id="CenterButton">
+    <div class="buttonCenter">
       <a href="#" onclick="history.go(-1);">
       <input type="button" id="button" class="gradientcolor" title="button" value="Terug">
     </a>
