@@ -209,18 +209,18 @@ span.boldText{
 
 /********************CSS for preface.php**********************/
 article#prefaceP{
-	font-size: 25px;
-	margin-top: 20%;
-	padding:20px;
-	word-spacing: 1px;
-	line-height: 30px;
-	border-top: solid 1px #D32353;
-	border-right: solid 1px #D32353;
-	border-left: solid 20px #D32353;
-	border-bottom: solid 1px #D32353;
-	border-radius: 10px;
-	background-color: #EEEEEE;
-	color: #111;
+  font-size: 25px;
+  margin-top: 20%;
+  padding:20px;
+  word-spacing: 1px;
+  line-height: 30px;
+  border-top: solid 1px #D32353;
+  border-right: solid 1px #D32353;
+  border-left: solid 20px #D32353;
+  border-bottom: solid 1px #D32353;
+  border-radius: 10px;
+  background-color: #EEEEEE;
+  color: #111;
 }
 
 .buttonCenter{
@@ -331,15 +331,15 @@ input.fb-login-button{
 
 /*****************CSS Mobile for termsAndConditions.php***************/
 article.articleTAC{
-	width: 95%;
-	max-height: 100%;
-	overflow-y: scroll;
-	margin: 0 auto 0 auto;
-	background-color: #EEEEEE;
-	color: #222222;
-	padding: 10px;
-	height: 80%;
-	overflow-x: hidden;
+  width: 95%;
+  max-height: 100%;
+  overflow-y: scroll;
+  margin: 0 auto 0 auto;
+  background-color: #EEEEEE;
+  color: #222222;
+  padding: 10px;
+  height: 80%;
+  overflow-x: hidden;
 
 }
 
@@ -352,67 +352,67 @@ span.boldText{
 }
 
 p {
-	font-size: 14px;
+  font-size: 14px;
 }
 
 h3 {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 li {
-	font-size: 14px;
+  font-size: 14px;
 }
 
 /********************CSS Mobile for all subpages***********************/
 h1.subPageTitle{
-	/*display: none;*/
+  /*display: none;*/
   font-size: 50px;
 }
 
 .mainWrapper{
-	width: auto;
-	height: 90%;
-	margin: 0 auto;+
-	overflow-x: hidden;
+  width: auto;
+  height: 90%;
+  margin: 0 auto;+
+  overflow-x: hidden;
 }
 
 #button {
-	height: 50px;
-	width: 80%;
+  height: 50px;
+  width: 80%;
   margin-top: 25px;
   margin-bottom: 25px;
   margin-left: auto;
   margin-right: auto;
-	border-radius: 5px;
-	text-decoration: none;
-	border: none;
-	outline: none;
-	color: #EDEDED;
-	cursor: pointer;
-	font-size: 18px;
-	font-family: 'Hind', sans-serif;
-	text-align: center;
-	font-weight: 500;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #EDEDED;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Hind', sans-serif;
+  text-align: center;
+  font-weight: 500;
 
 }
 
 #startE {
-	height: 50px;
-	width: 80%;
+  height: 50px;
+  width: 80%;
   margin-top: 25px;
   margin-bottom: 25px;
   margin-left: auto;
   margin-right: auto;
-	border-radius: 5px;
-	text-decoration: none;
-	border: none;
-	outline: none;
-	color: #EDEDED;
-	cursor: pointer;
-	font-size: 18px;
-	font-family: 'Hind', sans-serif;
-	text-align: center;
-	font-weight: 500;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #EDEDED;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Hind', sans-serif;
+  text-align: center;
+  font-weight: 500;
 
 }
 
@@ -453,21 +453,21 @@ h1.subPageTitle{
 
 /********************CSS for preface.php**********************/
 article#prefaceP{
-	font-size: 18px;
-	margin-top: 5%;
-	padding:15px;
-	line-height: 20px;
-	border-top: solid 1px #D32353;
-	border-right: solid 1px #D32353;
-	border-left: solid 10px #D32353;
-	border-bottom: solid 1px #D32353;
-	border-radius: 10px;
-	background-color: #EEEEEE;
-	color: #111;
+  font-size: 18px;
+  margin-top: 5%;
+  padding:15px;
+  line-height: 20px;
+  border-top: solid 1px #D32353;
+  border-right: solid 1px #D32353;
+  border-left: solid 10px #D32353;
+  border-bottom: solid 1px #D32353;
+  border-radius: 10px;
+  background-color: #EEEEEE;
+  color: #111;
 }
 
 .buttonCenter{
-	text-align: center;
+  text-align: center;
 }
 
 }
