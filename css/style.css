@@ -269,7 +269,17 @@ select{
   appearance: none;
 }
 
-
+/******************CSS for restaurant score*******************/
+section#RestaurantScoreSection{
+  margin-top: 10%;
+  padding: 20px 5% 40px 5%;
+  border: solid 1px #D32353;
+  box-shadow: -5px 0 #d32353;
+  border-radius: 10px;
+  background-color: #EEEEEE;
+  color: #111;
+  width: 90%;
+}
 
 
 /******************Media Querries***************************/
