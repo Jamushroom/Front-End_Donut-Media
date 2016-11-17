@@ -233,10 +233,13 @@ article#prefaceP{
 section#bestRestaurantsSection{
   margin-top: 10%;
   padding: 20px 20% 40px 20%;
-  border-top: solid 1px #D32353;
+/*  border-top: solid 1px #D32353;
   border-right: solid 1px #D32353;
   border-left: solid 20px #D32353;
-  border-bottom: solid 1px #D32353;
+  border-bottom: solid 1px #D32353;*/
+
+  border: solid 1px #D32353;
+  box-shadow: -5px 0 #d32353;
   border-radius: 10px;
   background-color: #EEEEEE;
   color: #111;
@@ -256,8 +259,8 @@ select{
   border-radius: 7px;
   font-size: 18px;
   background-color: transparent;
-  background-image: url(../img/dropIcon.jpg);
-  background-size: 43px;
+  background-image: url(../img/dropIcon.png);
+  background-size: 27px;
   background-repeat: no-repeat;
   background-position: right;
 

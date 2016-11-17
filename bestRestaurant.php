@@ -38,7 +38,7 @@
     </section>
     <div class="buttonCenter">
       <a href="#">
-        <input type="button" id="startE" class="button gradientcolor" title="button"
+        <input type="button" class="button gradientcolor" title="button"
         value="Volgende vraag">
       </a>
     </div>
