@@ -104,7 +104,7 @@ h1.subPageTitle{
 }
 
 .mainWrapper{
-  max-width: 1000px;
+  max-width: 700px;
   width: 100%;
   height: 500px;
   margin: 50px auto 0 auto;
@@ -233,11 +233,6 @@ article#prefaceP{
 section#bestRestaurantsSection{
   margin-top: 10%;
   padding: 20px 20% 40px 20%;
-/*  border-top: solid 1px #D32353;
-  border-right: solid 1px #D32353;
-  border-left: solid 20px #D32353;
-  border-bottom: solid 1px #D32353;*/
-
   border: solid 1px #D32353;
   box-shadow: -5px 0 #d32353;
   border-radius: 10px;
@@ -281,6 +276,162 @@ section#RestaurantScoreSection{
   width: 90%;
 }
 
+#scoreTitle{
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/*checkbox css*/
+label {
+  display: inline;
+  cursor: pointer;
+}
+
+.regular-checkbox {
+  display: none;
+}
+
+
+.regular-checkbox + label {
+  background-color: #fafafa;
+  border: 1px solid #cacece;
+  padding: 10px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+}
+
+.regular-checkbox:checked + label:after {
+  content: '\2713';
+  font-size: 30px;
+  position: absolute;
+  top: -7px;
+  left: 2px;
+  color: #D32353;
+}
+
+.question{
+  display: inline;
+}
+
+/*slider css*/
+/*firefox etc*/
+input[type=range]{
+  display: flex;
+  width: 300px;
+  margin: 18px 0;
+  -webkit-appearance: none;
+  padding: 0px;
+}
+
+input[type=range]::-webkit-slider-runnable-track{
+    height: 7px;
+    background: #D32353;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]:disabled::-webkit-slider-runnable-track{
+  background-color: grey;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 25px;
+    width: 15px;
+    border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+    margin-top: -8px;
+    background: -webkit-linear-gradient(#fbfbfb, #e5e5e5);
+    background: -o-linear-gradient(#fbfbfb, #e5e5e5);
+    background: -moz-linear-gradient(#fbfbfb, #e5e5e5);
+    background: linear-gradient(#fbfbfb, #e5e5e5);
+    box-shadow: 0px 0px 6px #555;
+    cursor: pointer;
+}
+
+input[type=range]:disabled::-webkit-slider-thumb{
+  cursor: auto;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+/*firefox*/
+input[type=range]::-moz-range-track {
+    width: 300px;
+    height: 7px;
+    background: #D32353;
+    border: none;
+    border-radius: 3px;
+}
+
+input[type=range]:disabled::-moz-range-track {
+   background: grey;
+}
+
+input[type=range]::-moz-range-thumb {
+    border: none;
+    height: 25px;
+    width: 15px;
+    border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+    margin-top: -8px;
+    background: -webkit-linear-gradient(#fbfbfb, #e5e5e5);
+    background: -o-linear-gradient(#fbfbfb, #e5e5e5);
+    background: -moz-linear-gradient(#fbfbfb, #e5e5e5);
+    background: linear-gradient(#fbfbfb, #e5e5e5);
+    box-shadow: 0px 0px 6px #555;
+    cursor: pointer;
+}
+
+input[type=range]:disabled::-moz-range-thumb {
+  cursor: auto;
+}
+
+input[type=range]:-moz-focusring{
+    outline: none;
+}
+
+/*internet explorer*/
+input[type=range]::-ms-track {
+    width: 300px;
+    height: 5px;
+    background: transparent;
+    border-color: transparent;
+    border-width: 15px 0;
+    color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+    background: #d32353;
+    border-radius: 10px;
+}
+input[type=range]::-ms-fill-upper {
+    background: #d32353;
+    border-radius: 10px;
+}
+
+input[type=range]:disabled::-ms-fill-lower{
+  background: grey;
+}
+
+input[type=range]:disabled::-ms-fill-upper{
+  background: grey;
+}
+
+input[type=range]::-ms-thumb {
+    border: none;
+    height: 25px;
+    width: 15px;
+    border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+    margin-top: -2px;
+    background: -webkit-linear-gradient(#fbfbfb, #e5e5e5);
+    background: -o-linear-gradient(#fbfbfb, #e5e5e5);
+    background: -moz-linear-gradient(#fbfbfb, #e5e5e5);
+    background: linear-gradient(#fbfbfb, #e5e5e5);
+    box-shadow: 0px 0px 6px #555;
+}
 
 /******************Media Querries***************************/
 @media (max-width:414px){
