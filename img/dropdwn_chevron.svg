@@ -1,10 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="562px" height="291px" viewBox="0 0 562 291" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 41 (35326) - http://www.bohemiancoding.com/sketch -->
-    <title>dropdwn_chevron</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M0,1 L561.533971,1 C561.533971,1 372.847656,290.609375 280.766985,290.132812 C188.686314,289.65625 0,1 0,1 Z" id="Path" fill="#FFFFFF"></path>
-    </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="562px" height="291px" viewBox="0 0 562 291" enable-background="new 0 0 562 291" xml:space="preserve">
+<title>dropdwn_chevron</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1">
+	<path id="Path" fill="#666666" d="M0,1h561.534c0,0-188.687,289.609-280.767,289.133S0,1,0,1z"/>
+</g>
 </svg>
