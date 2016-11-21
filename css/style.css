@@ -209,22 +209,20 @@ span.boldText{
 
 /********************CSS for preface.php**********************/
 article#prefaceP{
-	font-size: 25px;
-	margin-top: 20%;
-	padding:20px;
-	word-spacing: 1px;
-	line-height: 30px;
-	border-top: solid 1px #D32353;
-	border-right: solid 1px #D32353;
-	border-left: solid 20px #D32353;
-	border-bottom: solid 1px #D32353;
-	border-radius: 10px;
-	background-color: #EEEEEE;
-	color: #111;
+  font-size: 18px;
+  margin-top: 20%;
+  padding:20px;
+  word-spacing: 1px;
+  line-height: 1.25em;
+  border: solid 1px #D32353;
+  box-shadow: -5px 0 #d32353;
+  border-radius: 10px;
+  background-color: #EEEEEE;
+  color: #666666;
 }
 
 .buttonCenter{
-	text-align: center;
+  text-align: center;
 }
 
 
