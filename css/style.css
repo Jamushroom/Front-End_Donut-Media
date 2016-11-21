@@ -267,7 +267,7 @@ select{
 /******************CSS for restaurant score*******************/
 section#RestaurantScoreSection{
   margin-top: 10%;
-  padding: 20px 5% 40px 5%;
+  padding: 15px 3% 20px 3%;
   border: solid 1px #D32353;
   box-shadow: -5px 0 #d32353;
   border-radius: 10px;
@@ -286,6 +286,8 @@ section#RestaurantScoreSection{
 label {
   display: inline;
   cursor: pointer;
+  color: #666;
+  font-size: 18px;
 }
 
 .regular-checkbox {
@@ -313,16 +315,39 @@ label {
 
 .question{
   display: inline;
+  margin-left: 2%;
 }
 
 /*slider css*/
-/*firefox etc*/
+.sliderContainer:not(:first-child){
+  padding-top: 10px;
+  border-top: 1px solid #d9d9d9;
+}
+
+.sliderText{
+  width: 32.7%;
+  display: inline-block;
+  margin: 0 0 15px 0;
+  color: #666;
+}
+.neutraalT{
+  text-align: left;
+}
+
+.goedT{
+  text-align: center;
+}
+
+.uitstekendT{
+  text-align: right;
+}
+
+/*Chrome etc*/
 input[type=range]{
   display: flex;
-  width: 300px;
-  margin: 18px 0;
+  width: 90%;
+  margin: 18px 5%;
   -webkit-appearance: none;
-  padding: 0px;
 }
 
 input[type=range]::-webkit-slider-runnable-track{
@@ -347,7 +372,7 @@ input[type=range]::-webkit-slider-thumb {
     background: -o-linear-gradient(#fbfbfb, #e5e5e5);
     background: -moz-linear-gradient(#fbfbfb, #e5e5e5);
     background: linear-gradient(#fbfbfb, #e5e5e5);
-    box-shadow: 0px 0px 6px #555;
+    box-shadow: 0px 2px 4px #777;
     cursor: pointer;
 }
 
@@ -361,7 +386,7 @@ input[type=range]:focus {
 
 /*firefox*/
 input[type=range]::-moz-range-track {
-    width: 300px;
+    width: 400px;
     height: 7px;
     background: #D32353;
     border: none;
@@ -382,7 +407,7 @@ input[type=range]::-moz-range-thumb {
     background: -o-linear-gradient(#fbfbfb, #e5e5e5);
     background: -moz-linear-gradient(#fbfbfb, #e5e5e5);
     background: linear-gradient(#fbfbfb, #e5e5e5);
-    box-shadow: 0px 0px 6px #555;
+    box-shadow: 0px 2px 4px #777;
     cursor: pointer;
 }
 
@@ -396,7 +421,7 @@ input[type=range]:-moz-focusring{
 
 /*internet explorer*/
 input[type=range]::-ms-track {
-    width: 300px;
+    width: 400px;
     height: 5px;
     background: transparent;
     border-color: transparent;
@@ -430,7 +455,7 @@ input[type=range]::-ms-thumb {
     background: -o-linear-gradient(#fbfbfb, #e5e5e5);
     background: -moz-linear-gradient(#fbfbfb, #e5e5e5);
     background: linear-gradient(#fbfbfb, #e5e5e5);
-    box-shadow: 0px 0px 6px #555;
+    box-shadow: 0px 2px 4px #777;
 }
 
 /******************Media Querries***************************/
