@@ -95,30 +95,35 @@
         function disable(){
           if (document.getElementById('checkbox-1').checked == false) {
             document.getElementById('slider-1').setAttribute("disabled", "disabled");
+            document.getElementById('slider-1').value = "6";
             } else {
               document.getElementById('slider-1').removeAttribute('disabled');
             }
 
           if (document.getElementById('checkbox-2').checked == false) {
             document.getElementById('slider-2').setAttribute("disabled", "disabled");
+            document.getElementById('slider-2').value = "6";
             } else {
               document.getElementById('slider-2').removeAttribute('disabled');
             }
 
           if (document.getElementById('checkbox-3').checked == false) {
             document.getElementById('slider-3').setAttribute("disabled", "disabled");
+            document.getElementById('slider-3').value = "6";
             } else {
               document.getElementById('slider-3').removeAttribute('disabled');
             }
 
           if (document.getElementById('checkbox-4').checked == false) {
             document.getElementById('slider-4').setAttribute("disabled", "disabled");
+            document.getElementById('slider-4').value = "6";
             } else {
               document.getElementById('slider-4').removeAttribute('disabled');
             }
 
           if (document.getElementById('checkbox-5').checked == false) {
             document.getElementById('slider-5').setAttribute("disabled", "disabled");
+            document.getElementById('slider-5').value = "6";
             } else {
               document.getElementById('slider-5').removeAttribute('disabled');
             }
