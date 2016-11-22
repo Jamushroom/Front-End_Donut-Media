@@ -19,8 +19,19 @@ h1{
 }
 
 h3{
-  font-size: 25px;
+  font-size: 18px;
   font-weight: bold;
+}
+
+h5{
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 0 0 0;
+  font-size: 30px;
+}
+
+h6{
+  font-size: 18px;
 }
 
 /******************CSS for Index.php**************************/
@@ -86,14 +97,14 @@ text-decoration: underline;
 
 /********************CSS for all subpages***********************/
 h1.subPageTitle{
-  font-size: 70px;
+  font-size: 55px;
   text-align: center;
   margin:5% auto 0 auto;
   max-width: 700px;
 }
 
 .mainWrapper{
-  max-width: 1000px;
+  max-width: 45%;
   width: 100%;
   height: 500px;
   margin: 50px auto 0 auto;
@@ -105,7 +116,7 @@ li{
 }
 
 /*****************CSS for Button******************************/
-#button{
+.button{
   height: 40px;
   margin-top: 30px;
   padding: 0 20px 0 20px;
@@ -156,9 +167,6 @@ article.articleTAC{
   color: #222222;
 }
 
-.buttonStartEnquête{
-  float: right;
-}
 
 span.boldText{
   font-weight: bold;
@@ -199,13 +207,397 @@ span.boldText{
   background: transparent;
 }
 
-/********************CSS for preface.php***********************/
+/********************CSS for preface.php**********************/
+article#prefaceP{
+  font-size: 18px;
+  margin-top: 20%;
+  padding:20px;
+  word-spacing: 1px;
+  line-height: 1.25em;
+  border: solid 1px #D32353;
+  box-shadow: -5px 0 #d32353;
+  border-radius: 10px;
+  background-color: #EEEEEE;
+  color: #666666;
+}
 
-/**************CSS for Restaurant Choice.php******************/
+.buttonCenter{
+  text-align: center;
+}
+
+/**************CSS for Best Restaurants.php******************/
+section#bestRestaurantsSection{
+  margin-top: 10%;
+  padding: 20px 5% 15px 5%;
+  border: solid 1px #D32353;
+  box-shadow: -5px 0 #d32353;
+  border-radius: 10px;
+  background-color: #EEEEEE;
+  color: #111;
+}
+
+#choiceTitle{
+  margin-bottom: 20px;
+}
+
+select{
+  width: 100%;
+  height: 40px;
+  margin: 5px 0 15px 0;
+  padding: 0 8px;
+  border: solid 3px #D32353;
+  border-radius: 7px;
+  box-shadow: 0 2.5px 2.5px 0 #CCC;
+  color: #666;
+  font-size: 18px;
+  background-image: url(../img/dropdwn_chevron.svg);
+  background-origin: content-box;
+  background-size: 15px;
+  background-repeat: no-repeat;
+  background-position: right;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/******************CSS for restaurant score*******************/
+section#RestaurantScoreSection{
+  margin-top: 10%;
+  padding: 15px 3% 20px 3%;
+  border: solid 1px #D32353;
+  box-shadow: -5px 0 #d32353;
+  border-radius: 10px;
+  background-color: #EEEEEE;
+  color: #111;
+  width: 90%;
+}
+
+#scoreTitle{
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/*checkbox css*/
+label {
+  display: inline;
+  cursor: pointer;
+  color: #666;
+  font-size: 18px;
+}
+
+.regular-checkbox {
+  display: none;
+}
 
 
+.regular-checkbox + label {
+  background-color: #fafafa;
+  border: 1px solid #cacece;
+  padding: 10px;
+  border-radius: 3px;
+  display: inline-block;
+  position: relative;
+}
 
-/******************Media Querries***************************/
+.regular-checkbox:checked + label:after {
+  content: '\2713';
+  font-size: 30px;
+  position: absolute;
+  top: -7px;
+  left: 2px;
+  color: #D32353;
+}
+
+.question{
+  display: inline;
+  margin-left: 2%;
+}
+
+/*slider css*/
+.sliderContainer:not(:first-child){
+  padding-top: 10px;
+  border-top: 1px solid #d9d9d9;
+}
+
+.sliderText{
+  width: 32.5%;
+  display: inline-block;
+  margin: 0 0 15px 0;
+  color: #666;
+}
+.neutraalT{
+  text-align: left;
+}
+
+.goedT{
+  text-align: center;
+}
+
+.uitstekendT{
+  text-align: right;
+}
+
+/*Chrome etc*/
+input[type=range]{
+  display: flex;
+  width: 90%;
+  margin: 18px 5%;
+  -webkit-appearance: none;
+}
+
+.regular-checkbox:checked + label:after {
+  content: '\2713';
+  font-size: 30px;
+  position: absolute;
+  top: -7px;
+  left: 2px;
+  color: #D32353;
+}
+
+.question{
+  display: inline;
+  margin-left: 2%;
+}
+
+/*slider css*/
+.sliderContainer:not(:first-child){
+  padding-top: 10px;
+  border-top: 1px solid #d9d9d9;
+}
+
+.sliderText{
+  width: 32.5%;
+  display: inline-block;
+  margin: 0 0 15px 0;
+  color: #666;
+}
+.neutraalT{
+  text-align: left;
+}
+
+.goedT{
+  text-align: center;
+}
+
+.uitstekendT{
+  text-align: right;
+}
+
+/*Chrome etc*/
+input[type=range]{
+  display: flex;
+  width: 90%;
+  margin: 18px 5%;
+  -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track{
+  height: 7px;
+  background: #D32353;
+  border: none;
+  border-radius: 3px;
+}
+
+input[type=range]:disabled::-webkit-slider-runnable-track{
+  background-color: grey;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 25px;
+  width: 15px;
+  border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+  margin-top: -8px;
+  background: -webkit-linear-gradient(#fbfbfb, #e5e5e5);
+  background: -o-linear-gradient(#fbfbfb, #e5e5e5);
+  background: -moz-linear-gradient(#fbfbfb, #e5e5e5);
+  background: linear-gradient(#fbfbfb, #e5e5e5);
+  box-shadow: 0px 2px 4px #777;
+  cursor: pointer;
+}
+
+input[type=range]:disabled::-webkit-slider-thumb{
+  cursor: auto;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+/*firefox*/
+input[type=range]::-moz-range-track {
+  width: 400px;
+  height: 7px;
+  background: #D32353;
+  border: none;
+  border-radius: 3px;
+}
+
+input[type=range]:disabled::-moz-range-track {
+   background: grey;
+}
+
+input[type=range]::-moz-range-thumb {
+  border: none;
+  height: 25px;
+  width: 15px;
+  border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+  margin-top: -8px;
+  background: -webkit-linear-gradient(#fbfbfb, #e5e5e5);
+  background: -o-linear-gradient(#fbfbfb, #e5e5e5);
+  background: -moz-linear-gradient(#fbfbfb, #e5e5e5);
+  background: linear-gradient(#fbfbfb, #e5e5e5);
+  box-shadow: 0px 2px 4px #777;
+  cursor: pointer;
+}
+
+input[type=range]:disabled::-moz-range-thumb {
+  cursor: auto;
+}
+
+input[type=range]:-moz-focusring{
+  outline: none;
+}
+
+/*internet explorer*/
+input[type=range]::-ms-track {
+  width: 400px;
+  height: 5px;
+  background: transparent;
+  border-color: transparent;
+  border-width: 15px 0;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #d32353;
+  border-radius: 10px;
+}
+input[type=range]::-ms-fill-upper {
+  background: #d32353;
+  border-radius: 10px;
+}
+
+input[type=range]:disabled::-ms-fill-lower{
+  background: grey;
+}
+
+input[type=range]:disabled::-ms-fill-upper{
+  background: grey;
+}
+
+input[type=range]::-ms-thumb {
+  border: none;
+  height: 25px;
+  width: 15px;
+  border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+  margin-top: -2px;
+  background: -webkit-linear-gradient(#fbfbfb, #e5e5e5);
+  background: -o-linear-gradient(#fbfbfb, #e5e5e5);
+  background: -moz-linear-gradient(#fbfbfb, #e5e5e5);
+  background: linear-gradient(#fbfbfb, #e5e5e5);
+  box-shadow: 0px 2px 4px #777;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 25px;
+  width: 15px;
+  border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+  margin-top: -8px;
+  background: -webkit-linear-gradient(#fbfbfb, #e5e5e5);
+  background: -o-linear-gradient(#fbfbfb, #e5e5e5);
+  background: -moz-linear-gradient(#fbfbfb, #e5e5e5);
+  background: linear-gradient(#fbfbfb, #e5e5e5);
+  box-shadow: 0px 2px 4px #777;
+  cursor: pointer;
+}
+
+input[type=range]:disabled::-webkit-slider-thumb{
+  cursor: auto;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+/*firefox*/
+input[type=range]::-moz-range-track {
+  width: 400px;
+  height: 7px;
+  background: #D32353;
+  border: none;
+  border-radius: 3px;
+}
+
+input[type=range]:disabled::-moz-range-track {
+ background: grey;
+}
+
+input[type=range]::-moz-range-thumb {
+  border: none;
+  height: 25px;
+  width: 15px;
+  border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+  margin-top: -8px;
+  background: -webkit-linear-gradient(#fbfbfb, #e5e5e5);
+  background: -o-linear-gradient(#fbfbfb, #e5e5e5);
+  background: -moz-linear-gradient(#fbfbfb, #e5e5e5);
+  background: linear-gradient(#fbfbfb, #e5e5e5);
+  box-shadow: 0px 2px 4px #777;
+  cursor: pointer;
+}
+
+input[type=range]:disabled::-moz-range-thumb {
+  cursor: auto;
+}
+
+input[type=range]:-moz-focusring{
+    outline: none;
+}
+
+/*internet explorer*/
+input[type=range]::-ms-track {
+    width: 400px;
+    height: 5px;
+    background: transparent;
+    border-color: transparent;
+    border-width: 15px 0;
+    color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+    background: #d32353;
+    border-radius: 10px;
+}
+input[type=range]::-ms-fill-upper {
+    background: #d32353;
+    border-radius: 10px;
+}
+
+input[type=range]:disabled::-ms-fill-lower{
+  background: grey;
+}
+
+input[type=range]:disabled::-ms-fill-upper{
+  background: grey;
+}
+
+input[type=range]::-ms-thumb {
+    border: none;
+    height: 25px;
+    width: 15px;
+    border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+    margin-top: -2px;
+    background: -webkit-linear-gradient(#fbfbfb, #e5e5e5);
+    background: -o-linear-gradient(#fbfbfb, #e5e5e5);
+    background: -moz-linear-gradient(#fbfbfb, #e5e5e5);
+    background: linear-gradient(#fbfbfb, #e5e5e5);
+    box-shadow: 0px 2px 4px #777;
+}
+
+/****************** Mobile Media Query ***************************/
 @media (max-width:414px){
 #Header {
   width: 100%;
@@ -228,7 +620,6 @@ span.boldText{
   right: 8px;
   top: 8px;
 }
-
 .indexTitle{
   text-align: center;
   margin:15% auto 0 auto;
@@ -265,5 +656,109 @@ input.fb-login-button{
   clear: both;
   max-width: 290px;
 }
->>>>>>> refs/remotes/origin/master
+
+/*****************CSS Mobile for termsAndConditions.php***************/
+article.articleTAC{
+  width: 95%;
+  max-height: 100%;
+  overflow-y: scroll;
+  margin: 0 auto 0 auto;
+  background-color: #EEEEEE;
+  color: #222222;
+  padding: 10px;
+  height: 80%;
+  overflow-x: hidden;
+
+}
+
+.buttonStartEnquête{
+  float: right;
+}
+
+span.boldText{
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+li {
+  font-size: 14px;
+}
+
+/********************CSS Mobile for all subpages***********************/
+h1.subPageTitle{
+  display: none;
+}
+
+.mainWrapper{
+  width: auto;
+  height: 90%;
+  margin: 0 auto;+
+  overflow-x: hidden;
+}
+#CenterButton {
+  text-align: center;
+
+}
+#button {
+  height: 50px;
+  width: 80%;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #EDEDED;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Hind', sans-serif;
+  text-align: center;
+  font-weight: 500;
+
+}
+
+/******************CSS Mobile for custom Scrollbar***********************/
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d32353;
+  border: 0px none #ffffff;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d03761;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #cc2251;
+}
+::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
 }
