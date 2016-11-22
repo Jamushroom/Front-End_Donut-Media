@@ -312,6 +312,7 @@ label {
 .question{
   display: inline;
   margin-left: 2%;
+  color: #222;
 }
 
 /*slider css*/
