@@ -49,7 +49,7 @@ input.fb-login-button{
 }
 
 input.fb-login-button:disabled{
-	background-color: #535353;
+  background-color: #707070;
 	cursor: not-allowed;
 	background-image: url(../img/FbLogoDis.jpg);
 	background-size: 60px;
