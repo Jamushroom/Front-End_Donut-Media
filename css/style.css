@@ -68,11 +68,11 @@ input.fb-login-button{
 }
 
 input.fb-login-button:disabled{
-  background-color: #707070;
-	cursor: not-allowed;
-	background-image: url(../img/FbLogoDis.jpg);
-	background-size: 60px;
-	background-repeat: no-repeat;
+  background-color: #535353;
+  cursor: not-allowed;
+  background-image: url(../img/FbLogoDis.jpg);
+  background-size: 60px;
+  background-repeat: no-repeat;
 }
 
 .termsAndConditionsWrapper{
@@ -119,6 +119,7 @@ li{
 .button{
   height: 40px;
   margin-top: 30px;
+  margin-bottom: 30px;
   padding: 0 20px 0 20px;
   border-radius: 5px;
   text-decoration: none;
@@ -223,7 +224,6 @@ article#prefaceP{
 
 .buttonCenter{
   text-align: center;
-  margin-bottom: 30px;
 }
 
 /**************CSS for Best Restaurants.php******************/
