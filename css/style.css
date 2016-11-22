@@ -161,7 +161,8 @@ article.articleTAC{
   margin: 50px auto 0 auto;
   background-color: #EEEEEE;
   border-radius: 5px 7px 7px 5px;
-
+  border: solid 1px #D32353;
+  box-shadow: -5px 0 #d32353;
   padding: 30px 40px;
 
   color: #222222;
