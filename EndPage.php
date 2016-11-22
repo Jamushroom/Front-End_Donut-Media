@@ -13,8 +13,8 @@
     <h3 id="endTitle">Bedankt voor het invullen van de enquête!</h3>
     <article class="articleEP">
       <p>Bedankt voor het deelnemen en invullen van de enquête van De smaak van Leeuwarden. De informatie die verkregen wordt door deze enquête zal gebruikt worden voor een web applicatie die gemaakt wordt door Studenten van de NHL Leeuwrden. Voor meer informatie klik <a href="#">hier</a> voor de algemene informatie.</p>
-      <br>
       <p>Bedankt!</p>
+      <!-- teksten zijn onder voorbehoud -->
     </article>
   </div>
 </body>
