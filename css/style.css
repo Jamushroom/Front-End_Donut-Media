@@ -599,6 +599,8 @@ input[type=range]::-ms-thumb {
     box-shadow: 0px 2px 4px #777;
 }
 
+
+
 /****************** Mobile Media Query ***************************/
 @media only screen and (max-device-width: 967px) {
 #Header {
@@ -617,23 +619,59 @@ input[type=range]::-ms-thumb {
 #Header #icon_info {
   margin-left: 15px;
 }
+
 #Header #icon_logout {
   position: absolute;
   right: 8px;
   top: 8px;
 }
+
+/*************************Overall CSS for Mobile************************/
+html{
+  font-family: 'Hind', sans-serif;
+  color: #EEEEEE;
+}
+
+p{
+  margin: 16px 0
+}
+
+h1{
+  font-size: 70px;
+}
+
+h3 {
+  font-size: 2em;
+  padding-top: .5em;
+}
+
+h5{
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 0 0 0;
+  font-size: 30px;
+}
+
+h6{
+  font-size: 18px;
+}
+
+/******************CSS Mobile for Index**************************/
+
 .indexTitle{
   text-align: center;
   margin:15% auto 0 auto;
   max-width: 95%;
   font-size: 30px;
 }
+
 .fb-login-wrapper{
   width: 100%;
   height: 40px;
   padding-top: 60%;
   text-align: center;
 }
+
 input.fb-login-button{
   width: 299px;
   height: 60px;
@@ -652,6 +690,7 @@ input.fb-login-button{
   background-repeat: no-repeat;
   border-radius: 3px;
 }
+
 .termsAndConditionsWrapper{
   margin: 40px auto;
   font-size: 13px;
@@ -660,8 +699,11 @@ input.fb-login-button{
 }
 
 /********************CSS Mobile for all subpages***********************/
-h1.subPageTitle{
-  /*display: none;*/
+.h1.subPageTitle{
+  font-size: 4em;
+  text-align: center;
+  margin: 5% auto 0 auto;
+  max-width: 700px;
 }
 
 .mainWrapper{
@@ -670,10 +712,11 @@ h1.subPageTitle{
   margin: 50px auto 0 auto;
 }
 
-#CenterButton {
-  text-align: center;
-
+.li{
+  list-style-type: disc;
+  margin-left: 20px;
 }
+
 /*****************CSS Mobile for Button******************************/
 .button{
   height: 2.3em;
@@ -736,10 +779,6 @@ span.boldText{
 
 p {
   font-size: 14px;
-}
-
-h3 {
-  font-size: 18px;
 }
 
 li {
@@ -817,3 +856,4 @@ select{
 }
 
 }
+
