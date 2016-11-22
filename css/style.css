@@ -662,7 +662,7 @@ input.fb-login-button{
 
 /********************CSS Mobile for all subpages***********************/
 h1.subPageTitle{
-  display: none;
+  /*display: none;*/
 }
 
 .mainWrapper{
