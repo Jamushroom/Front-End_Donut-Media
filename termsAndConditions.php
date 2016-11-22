@@ -135,7 +135,7 @@
         </p>
 
         <p>
-        <Dspan class="boldText">isclaimer.</Dspan> Naast deze Privacy Statement is een Disclaimer van toepassing op de websites. Bekijk <a href="https://www.nhl.nl/disclaimer">hier</a> de disclaimer.
+        <span class="boldText">Disclaimer.</span> Naast deze Privacy Statement is een Disclaimer van toepassing op de websites. Bekijk <a href="https://www.nhl.nl/disclaimer">hier</a> de disclaimer.
         </p>
     </article>
     <a href="#" onclick="history.go(-1);">
