@@ -10,8 +10,9 @@
 <body>
   <div class="mainWrapper">
     <h1 class="subPageTitle">Stem van Leeuwarden</h1>
+    <h3 id="choiceTitle">Maak hieronder een keuze van de 3 beste restaurants in Leeuwarden</h3>
     <section id="bestRestaurantsSection">
-      <h3 id="choiceTitle">Maak hieronder een keuze van de 3 beste restaurants in Leeuwarden</h3>
+
 
       <h6>Keuze 1</h6>
       <select name="choice1" id="choice1">

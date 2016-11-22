@@ -248,6 +248,7 @@ section#bestRestaurantsSection{
 
 #choiceTitle{
   margin-bottom: 20px;
+  text-align: center;
 }
 
 select{
