@@ -12,7 +12,9 @@
     <h1 class="subPageTitle">Stem van Leeuwarden</h1>
     <h3 id="endTitle">Bedankt voor het invullen van de enquête!</h3>
     <article class="articleEP">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse optio, aperiam dolorum molestiae ipsum sequi voluptas enim, pariatur aspernatur doloribus ipsam minima amet possimus provident tenetur in odio? Vel, earum.</p>
+      <p>Bedankt voor het deelnemen en invullen van de enquête van De smaak van Leeuwarden. De informatie die verkregen wordt door deze enquête zal gebruikt worden voor een web applicatie die gemaakt wordt door Studenten van de NHL Leeuwrden. Voor meer informatie klik <a href="#">hier</a> voor de algemene informatie.</p>
+      <br>
+      <p>Bedankt!</p>
     </article>
   </div>
 </body>
