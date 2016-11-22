@@ -2,74 +2,82 @@
 
 /*************************Overall CSS************************/
 html{
-	font-family: 'Hind', sans-serif;
-	color: #EEEEEE;
+  font-family: 'Hind', sans-serif;
+  color: #EEEEEE;
 }
 
 body{
-	background-image: url(../img/background.jpg);
+  background-image: url(../img/background.jpg);
+}
+
+p{
+  margin: 16px 0
 }
 
 h1{
-	font-size: 70px;
+  font-size: 70px;
+}
 
+h3{
+  font-size: 25px;
+  font-weight: bold;
 }
 
 /******************CSS for Index.php**************************/
 .indexTitle{
-	text-align: center;
-	margin:15% auto 0 auto;
-	max-width: 700px;
+  text-align: center;
+  margin:15% auto 0 auto;
+  max-width: 700px;
 }
 
 .fb-login-wrapper{
-	width: 100%;
-	height: 40px;
-	padding-top: 40px;
-	text-align: center;
+  width: 100%;
+  height: 40px;
+  padding-top: 40px;
+  text-align: center;
 }
 
 input.fb-login-button{
-	width: 299px;
-	height: 60px;
-	padding-right: 19px;
-	text-decoration: none;
-	border: none;
-	outline: none;
-	color: #EDEDED;
-	cursor: pointer;
-	font-size: 18px;
-	font-family: 'Hind', sans-serif;
-	text-align: right;
-	background-color: #3b5998;
-	background-image: url(../img/FbLogo.jpg);
-	background-size: 60px;
-	background-repeat: no-repeat;
-	border-radius: 3px;
+  width: 299px;
+  height: 60px;
+  padding-right: 19px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #EDEDED;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Hind', sans-serif;
+  text-align: right;
+  background-color: #3b5998;
+  background-image: url(../img/FbLogo.jpg);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  border-radius: 3px;
 }
 
 input.fb-login-button:disabled{
-	background-color: #535353;
-	cursor: not-allowed;
-	background-image: url(../img/FbLogoDis.jpg);
-	background-size: 60px;
-	background-repeat: no-repeat;
+  background-color: #535353;
+  cursor: not-allowed;
+  background-image: url(../img/FbLogoDis.jpg);
+  background-size: 60px;
+  background-repeat: no-repeat;
 }
 
 .termsAndConditionsWrapper{
-	max-width: 345px;
-	margin: 40px auto;
+  max-width: 345px;
+  margin: 40px auto;
 }
 
 .termsAndConditionsWrapper input{
-	float: left;
-	margin-right: 10px
+  float: left;
+  margin-right: 10px
 }
 
 .termsAndConditionsWrapper p{
-	max-width: 780px;
-	float: left;
-	margin-top: 2px;
+  max-width: 780px;
+  float: left;
+  margin-top: 2px;
 }
 
 .termsAndConditionsWrapper #termsAndConditions{
@@ -78,25 +86,39 @@ text-decoration: underline;
 
 /********************CSS for all subpages***********************/
 h1.subPageTitle{
-	font-size: 70px;
-	text-align: center;
-	margin:5% auto 0 auto;
-	max-width: 700px;
+  font-size: 70px;
+  text-align: center;
+  margin:5% auto 0 auto;
+  max-width: 700px;
+}
+
+.mainWrapper{
+  max-width: 1000px;
+  width: 100%;
+  height: 500px;
+  margin: 50px auto 0 auto;
+}
+
+li{
+  list-style-type: disc;
+  margin-left: 20px;
 }
 
 /*****************CSS for Button******************************/
 #button{
-	width: 300px;
-	height: 50px;
-	text-decoration: none;
-	border: none;
-	outline: none;
-	color: #EDEDED;
-	cursor: pointer;
-	font-size: 25px;
-	font-family: 'Hind', sans-serif;
-	text-align: center;
-	font-weight: 500;
+  height: 40px;
+  margin-top: 30px;
+  padding: 0 20px 0 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #EDEDED;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: 'Hind', sans-serif;
+  text-align: center;
+  font-weight: 500;
 }
 
 .gradientcolor{
@@ -121,35 +143,127 @@ h1.subPageTitle{
 }
 /*****************CSS for termsAndConditions.php***************/
 article.articleTAC{
-	max-width:
+  max-width: 920px;
+  width: 100%;
+  max-height: 500px;
+  overflow-y:scroll;
+  margin: 50px auto 0 auto;
+  background-color: #EEEEEE;
+  border-radius: 5px 7px 7px 5px;
+
+  padding: 30px 40px;
+
+  color: #222222;
+}
+
+.buttonStartEnquête{
+  float: right;
+}
+
+span.boldText{
+  font-weight: bold;
+}
+
+/******************CSS for custom Scrollbar***********************/
+::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: #d32353;
+  border: 0px none #ffffff;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #d03761;
+}
+::-webkit-scrollbar-thumb:active {
+  background: #cc2251;
+}
+::-webkit-scrollbar-track {
+  background: #666666;
+  border: 0px none #ffffff;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-track:hover {
+  background: #666666;
+}
+::-webkit-scrollbar-track:active {
+  background: #333333;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
 }
 
 /********************CSS for preface.php***********************/
 
-
-
 /**************CSS for Restaurant Choice.php******************/
 
+
+
+/******************Media Querries***************************/
 @media (max-width:414px){
 #Header {
-	width: 100%;
-	background-color: #6c1779;
-	height: 50px;
-	color: #eeeeee;
-	overflow: hidden;
-	position: relative;
+  width: 100%;
+  background-color: #6c1779;
+  height: 50px;
+  color: #eeeeee;
+  overflow: hidden;
+  position: relative;
 }
 #Header #icon_disclaimer {
-	margin-top: 8px;
-	margin-left: 8px;
+  margin-top: 8px;
+  margin-left: 8px;
 }
 
 #Header #icon_info {
-	margin-left: 15px;
+  margin-left: 15px;
 }
 #Header #icon_logout {
-	position: absolute;
-	right: 8px;
-	top: 8px;
+  position: absolute;
+  right: 8px;
+  top: 8px;
 }
+
+.indexTitle{
+  text-align: center;
+  margin:15% auto 0 auto;
+  max-width: 95%;
+  font-size: 30px;
+}
+.fb-login-wrapper{
+  width: 100%;
+  height: 40px;
+  padding-top: 60%;
+  text-align: center;
+}
+input.fb-login-button{
+  width: 299px;
+  height: 60px;
+  padding-right: 16px;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #EDEDED;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: 'Hind', sans-serif;
+  text-align: right;
+  background-color: #3b5998;
+  background-image: url(../img/FbLogo.jpg);
+  background-size: 60px;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+}
+.termsAndConditionsWrapper{
+  margin: 40px auto;
+  font-size: 13px;
+  clear: both;
+  max-width: 290px;
+}
+>>>>>>> refs/remotes/origin/master
 }
