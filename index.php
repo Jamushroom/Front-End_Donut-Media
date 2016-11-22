@@ -18,7 +18,7 @@
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));</script> -->
 
-  <h1 class="indexTitle">Welkom bij De stem van Leeuwarden</h1>
+  <h1 class="indexTitle">Welkom bij De smaak van Leeuwarden</h1>
 
   <div class="fb-login-wrapper">
     <a href="preface.php">
