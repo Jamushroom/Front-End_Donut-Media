@@ -666,8 +666,7 @@ h1.subPageTitle{
 }
 
 .mainWrapper{
-  max-width: 45%;
-  width: 100%;
+  max-width: 95%;
   height: 500px;
   margin: 50px auto 0 auto;
 }
