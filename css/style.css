@@ -168,7 +168,6 @@ article.articleTAC{
   box-sizing: border-box;
 }
 
-
 span.boldText{
   font-weight: bold;
 }
@@ -229,7 +228,7 @@ article#prefaceP{
 /**************CSS for Best Restaurants.php******************/
 section#bestRestaurantsSection{
   margin-top: 10%;
-  padding: 20px 5% 15px 5%;
+  padding: 1.5em 1em 0 1em;
   border: solid 1px #D32353;
   box-shadow: -5px 0 #d32353;
   border-radius: 10px;
@@ -621,7 +620,7 @@ article.articleEP{
 }
 
 /****************** Mobile Media Query ***************************/
-@media (max-width:414px){
+@media only screen and (max-device-width: 640px) {
 #Header {
   width: 100%;
   background-color: #6c1779;
@@ -630,6 +629,7 @@ article.articleEP{
   overflow: hidden;
   position: relative;
 }
+
 #Header #icon_disclaimer {
   margin-top: 8px;
   margin-left: 8px;
@@ -638,23 +638,59 @@ article.articleEP{
 #Header #icon_info {
   margin-left: 15px;
 }
+
 #Header #icon_logout {
   position: absolute;
   right: 8px;
   top: 8px;
 }
+
+/*************************Overall CSS for Mobile************************/
+html{
+  font-family: 'Hind', sans-serif;
+  color: #EEEEEE;
+}
+
+p{
+  margin: 16px 0
+}
+
+h1{
+  font-size: 70px;
+}
+
+h3 {
+  font-size: 2em;
+  padding-top: .5em;
+}
+
+h5{
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 0 0 0;
+  font-size: 30px;
+}
+
+h6{
+  font-size: 2em;
+}
+
+/******************CSS Mobile for Index**************************/
+
 .indexTitle{
   text-align: center;
   margin:15% auto 0 auto;
   max-width: 95%;
   font-size: 30px;
 }
+
 .fb-login-wrapper{
   width: 100%;
   height: 40px;
   padding-top: 60%;
   text-align: center;
 }
+
 input.fb-login-button{
   width: 299px;
   height: 60px;
@@ -673,11 +709,70 @@ input.fb-login-button{
   background-repeat: no-repeat;
   border-radius: 3px;
 }
+
 .termsAndConditionsWrapper{
   margin: 40px auto;
   font-size: 13px;
   clear: both;
   max-width: 290px;
+}
+
+/********************CSS Mobile for all subpages***********************/
+h1.subPageTitle{
+  font-size: 4em;
+  text-align: center;
+  margin: 5% auto 0 auto;
+  max-width: 12em;
+}
+
+.mainWrapper{
+  max-width: 95%;
+  height: 500px;
+  margin: 50px auto 0 auto;
+}
+
+.li{
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/*****************CSS Mobile for Button******************************/
+.button{
+  height: 2.3em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0 .5em 0 .5em;
+  border-radius: .35em;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  color: #EDEDED;
+  cursor: pointer;
+  font-size: 2em;
+  font-family: 'Hind', sans-serif;
+  text-align: center;
+  font-weight: 500;
+}
+
+.gradientcolor{
+  background: -webkit-linear-gradient(#D32353, #99163A);
+  background: -o-linear-gradient(#D32353, #99163A);
+  background: -moz-linear-gradient(#D32353, #99163A);
+  background: linear-gradient(#D32353, #99163A);
+}
+
+.gradientcolor:hover{
+  background: -webkit-linear-gradient(#D03761, #AF153F);
+  background: -o-linear-gradient(#D03761, #AF153F);
+  background: -moz-linear-gradient(#D03761, #AF153F);
+  background: linear-gradient(#D03761, #AF153F);
+}
+
+.gradientcolor:active{
+  background: -webkit-linear-gradient(#CC2251, #99163A );
+  background: -o-linear-gradient(#CC2251, #99163A );
+  background: -moz-linear-gradient(#CC2251, #99163A );
+  background: linear-gradient(#CC2251, #99163A );
 }
 
 /*****************CSS Mobile for termsAndConditions.php***************/
@@ -691,7 +786,6 @@ article.articleTAC{
   padding: 10px;
   height: 80%;
   overflow-x: hidden;
-
 }
 
 .buttonStartEnquête{
@@ -706,47 +800,43 @@ p {
   font-size: 14px;
 }
 
-h3 {
-  font-size: 18px;
-}
-
 li {
   font-size: 14px;
 }
 
-/********************CSS Mobile for all subpages***********************/
-h1.subPageTitle{
-  display: none;
+/**************CSS Mobile for Best Restaurants.php******************/
+section#bestRestaurantsSection{
+  margin-top: 10%;
+  padding: 20px 1em .5em 1em;
+  border: solid .2em #D32353;
+  box-shadow: -.5em 0 #d32353;
+  border-radius: .6em;
+  background-color: #EEEEEE;
+  color: #111;
 }
 
-.mainWrapper{
-  width: auto;
-  height: 90%;
-  margin: 0 auto;+
-  overflow-x: hidden;
+#choiceTitle{
+  margin-bottom: 20px;
 }
-#CenterButton {
-  text-align: center;
 
-}
-#button {
-  height: 50px;
-  width: 80%;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
-  text-decoration: none;
-  border: none;
-  outline: none;
-  color: #EDEDED;
-  cursor: pointer;
-  font-size: 18px;
-  font-family: 'Hind', sans-serif;
-  text-align: center;
-  font-weight: 500;
-
+select{
+  width: 100%;
+  height: 2.3em;
+  margin: .3em 0 1em 0;
+  padding: 0 .5em;
+  border: solid .15em #D32353;
+  border-radius: .3em;
+  box-shadow: 0 .2em .2em 0 #CCC;
+  color: #666;
+  font-size: 2em;
+  background-image: url(../img/dropdwn_chevron.svg);
+  background-origin: content-box;
+  background-size: .7em;
+  background-repeat: no-repeat;
+  background-position: right;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 /******************CSS Mobile for custom Scrollbar***********************/
@@ -785,3 +875,4 @@ h1.subPageTitle{
 }
 
 }
+
