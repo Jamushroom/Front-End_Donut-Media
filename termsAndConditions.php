@@ -10,7 +10,7 @@
 <body>
 
   <div class="mainWrapper">
-    <h1 class="subPageTitle">Stem van Leeuwarden</h1>
+    <h1 class="subPageTitle">De smaak van Leeuwarden</h1>
 
     <article class="articleTAC">
         <h3>Disclaimer</h3>

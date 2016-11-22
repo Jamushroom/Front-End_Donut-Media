@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="mainWrapper">
-    <h1 class="subPageTitle">Stem van Leeuwarden</h1>
+    <h1 class="subPageTitle">De smaak van Leeuwarden</h1>
     <h3 id="scoreTitle">Selecteer de sterke punten en waardeer deze punten van
     <!-- Restaurant # --></h3>
     <section id="RestaurantScoreSection">
