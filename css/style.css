@@ -68,11 +68,11 @@ input.fb-login-button{
 }
 
 input.fb-login-button:disabled{
-  background-color: #707070;
-	cursor: not-allowed;
-	background-image: url(../img/FbLogoDis.jpg);
-	background-size: 60px;
-	background-repeat: no-repeat;
+  background-color: #535353;
+  cursor: not-allowed;
+  background-image: url(../img/FbLogoDis.jpg);
+  background-size: 60px;
+  background-repeat: no-repeat;
 }
 
 .termsAndConditionsWrapper{
