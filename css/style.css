@@ -167,7 +167,6 @@ article.articleTAC{
   color: #222222;
 }
 
-
 span.boldText{
   font-weight: bold;
 }
@@ -611,6 +610,7 @@ input[type=range]::-ms-thumb {
   overflow: hidden;
   position: relative;
 }
+
 #Header #icon_disclaimer {
   margin-top: 8px;
   margin-left: 8px;
@@ -703,7 +703,7 @@ h1.subPageTitle{
   font-size: 4em;
   text-align: center;
   margin: 5% auto 0 auto;
-  max-width: 700px;
+  max-width: 12em;
 }
 
 .mainWrapper{
@@ -789,8 +789,8 @@ li {
 section#bestRestaurantsSection{
   margin-top: 10%;
   padding: 20px 1em .5em 1em;
-  border: solid 1px #D32353;
-  box-shadow: -5px 0 #d32353;
+  border: solid .2em #D32353;
+  box-shadow: -.5em 0 #d32353;
   border-radius: .6em;
   background-color: #EEEEEE;
   color: #111;
@@ -805,9 +805,9 @@ select{
   height: 2.3em;
   margin: .3em 0 1em 0;
   padding: 0 .5em;
-  border: solid 3px #D32353;
+  border: solid .15em #D32353;
   border-radius: .3em;
-  box-shadow: 0 2.5px 2.5px 0 #CCC;
+  box-shadow: 0 .2em .2em 0 #CCC;
   color: #666;
   font-size: 2em;
   background-image: url(../img/dropdwn_chevron.svg);
