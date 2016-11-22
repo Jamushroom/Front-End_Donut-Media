@@ -139,7 +139,7 @@
         </p>
     </article>
     <a href="#" onclick="history.go(-1);">
-      <input type="button" id="button" class="gradientcolor" title="button" value="Terug">
+      <input type="button" class="button gradientcolor" title="button" value="Terug">
     </a>
 </div>
 </body>
