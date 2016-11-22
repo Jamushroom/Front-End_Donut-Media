@@ -349,52 +349,6 @@ input[type=range]{
   -webkit-appearance: none;
 }
 
-.regular-checkbox:checked + label:after {
-  content: '\2713';
-  font-size: 30px;
-  position: absolute;
-  top: -7px;
-  left: 2px;
-  color: #D32353;
-}
-
-.question{
-  display: inline;
-  margin-left: 2%;
-}
-
-/*slider css*/
-.sliderContainer:not(:first-child){
-  padding-top: 10px;
-  border-top: 1px solid #d9d9d9;
-}
-
-.sliderText{
-  width: 32.5%;
-  display: inline-block;
-  margin: 0 0 15px 0;
-  color: #666;
-}
-.neutraalT{
-  text-align: left;
-}
-
-.goedT{
-  text-align: center;
-}
-
-.uitstekendT{
-  text-align: right;
-}
-
-/*Chrome etc*/
-input[type=range]{
-  display: flex;
-  width: 90%;
-  margin: 18px 5%;
-  -webkit-appearance: none;
-}
-
 input[type=range]::-webkit-slider-runnable-track{
   height: 7px;
   background: #D32353;
@@ -431,7 +385,6 @@ input[type=range]:focus {
 
 /*firefox*/
 input[type=range]::-moz-range-track {
-  width: 400px;
   height: 7px;
   background: #D32353;
   border: none;
@@ -466,7 +419,6 @@ input[type=range]:-moz-focusring{
 
 /*internet explorer*/
 input[type=range]::-ms-track {
-  width: 400px;
   height: 5px;
   background: transparent;
   border-color: transparent;
@@ -524,80 +476,6 @@ input[type=range]:disabled::-webkit-slider-thumb{
 
 input[type=range]:focus {
   outline: none;
-}
-
-/*firefox*/
-input[type=range]::-moz-range-track {
-  width: 400px;
-  height: 7px;
-  background: #D32353;
-  border: none;
-  border-radius: 3px;
-}
-
-input[type=range]:disabled::-moz-range-track {
- background: grey;
-}
-
-input[type=range]::-moz-range-thumb {
-  border: none;
-  height: 25px;
-  width: 15px;
-  border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
-  margin-top: -8px;
-  background: -webkit-linear-gradient(#fbfbfb, #e5e5e5);
-  background: -o-linear-gradient(#fbfbfb, #e5e5e5);
-  background: -moz-linear-gradient(#fbfbfb, #e5e5e5);
-  background: linear-gradient(#fbfbfb, #e5e5e5);
-  box-shadow: 0px 2px 4px #777;
-  cursor: pointer;
-}
-
-input[type=range]:disabled::-moz-range-thumb {
-  cursor: auto;
-}
-
-input[type=range]:-moz-focusring{
-    outline: none;
-}
-
-/*internet explorer*/
-input[type=range]::-ms-track {
-    width: 400px;
-    height: 5px;
-    background: transparent;
-    border-color: transparent;
-    border-width: 15px 0;
-    color: transparent;
-}
-input[type=range]::-ms-fill-lower {
-    background: #d32353;
-    border-radius: 10px;
-}
-input[type=range]::-ms-fill-upper {
-    background: #d32353;
-    border-radius: 10px;
-}
-
-input[type=range]:disabled::-ms-fill-lower{
-  background: grey;
-}
-
-input[type=range]:disabled::-ms-fill-upper{
-  background: grey;
-}
-
-input[type=range]::-ms-thumb {
-    border: none;
-    height: 25px;
-    width: 15px;
-    border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
-    margin-top: -2px;
-    background: -webkit-linear-gradient(#fbfbfb, #e5e5e5);
-    background: -o-linear-gradient(#fbfbfb, #e5e5e5);
-    background: -moz-linear-gradient(#fbfbfb, #e5e5e5);
-    background: linear-gradient(#fbfbfb, #e5e5e5);
-    box-shadow: 0px 2px 4px #777;
 }
 
 /*******************Css for Endpage*****************************/
@@ -840,7 +718,205 @@ select{
   appearance: none;
 }
 
-/******************CSS Mobile for custom Scrollbar***********************/
+
+/*****************CSS Mobile for Restaurant Score***************/
+section#RestaurantScoreSection{
+  margin-top: 10%;
+  padding: 20px 1em .5em 1em;
+  border: solid .2em #D32353;
+  box-shadow: -.5em 0 #d32353;
+  border-radius: .35em;
+  background-color: #EEEEEE;
+  color: #111;
+  box-sizing: border-box;
+}
+
+#scoreTitle{
+  margin-bottom: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/*checkbox css*/
+label {
+  display: inline;
+  cursor: pointer;
+  color: #666;
+  font-size: 2em;
+}
+
+.regular-checkbox {
+  display: none;
+}
+
+
+.regular-checkbox + label {
+  background-color: #fafafa;
+  border:.08em solid #cacece;
+  padding: .45em;
+  border-radius: .2em;
+  display: inline-block;
+  position: relative;
+}
+
+.regular-checkbox:checked + label:after {
+  content: '\2713';
+  font-size: 1.5em;
+  position: absolute;
+  top: -0.25em;
+  color: #D32353;
+}
+
+.question{
+  display: inline;
+  margin-left: 2%;
+  color: #222;
+}
+
+/*slider css*/
+.sliderContainer:not(:first-child){
+  padding-top: 1em;
+  border-top: 1px solid #d9d9d9;
+}
+
+.sliderText{
+  width: 32.5%;
+  display: inline-block;
+  margin: 0 0 2em 0;
+  color: #666;
+  font-size: 2em;
+}
+.neutraalT{
+  text-align: left;
+}
+
+.goedT{
+  text-align: center;
+}
+
+.uitstekendT{
+  text-align: right;
+}
+
+/*chrome etc*/
+input[type=range]{
+  display: flex;
+  width: 90%;
+  margin: 5em 5% 3em 5%;
+  -webkit-appearance: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track{
+  height: 1em;
+  background: #D32353;
+  border: none;
+  border-radius: .35em;
+}
+
+input[type=range]:disabled::-webkit-slider-runnable-track{
+  background-color: grey;
+}
+
+input[type=range]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  border: none;
+  height: 4.4em;
+  width: 3em;
+  border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+  margin-top: -1.2em;
+  background: -webkit-linear-gradient(#fbfbfb, #e5e5e5);
+  background: -o-linear-gradient(#fbfbfb, #e5e5e5);
+  background: -moz-linear-gradient(#fbfbfb, #e5e5e5);
+  background: linear-gradient(#fbfbfb, #e5e5e5);
+  box-shadow: 0 .5em .7em #777;
+  cursor: pointer;
+}
+
+input[type=range]:disabled::-webkit-slider-thumb{
+  cursor: auto;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+/*firefox*/
+input[type=range]::-moz-range-track {
+  height: 1em;
+  background: #D32353;
+  border: none;
+  border-radius: .35em;
+}
+
+input[type=range]:disabled::-moz-range-track {
+   background: grey;
+}
+
+input[type=range]::-moz-range-thumb {
+  border: none;
+  height: 4.4em;
+  width: 3em;
+  border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+  margin-top: -1.2em;
+  background: -webkit-linear-gradient(#fbfbfb, #e5e5e5);
+  background: -o-linear-gradient(#fbfbfb, #e5e5e5);
+  background: -moz-linear-gradient(#fbfbfb, #e5e5e5);
+  background: linear-gradient(#fbfbfb, #e5e5e5);
+  box-shadow: 0 .5em .7em #777;
+  cursor: pointer;
+}
+
+input[type=range]:disabled::-moz-range-thumb {
+  cursor: auto;
+}
+
+input[type=range]:-moz-focusring{
+  outline: none;
+}
+
+/*internet explorer*/
+input[type=range]::-ms-track {
+  height: 1em;
+  background: transparent;
+  border-color: transparent;
+  border-width: 15px 0;
+  color: transparent;
+}
+input[type=range]::-ms-fill-lower {
+  background: #d32353;
+  border-radius: .35em;
+}
+input[type=range]::-ms-fill-upper {
+  background: #d32353;
+  border-radius: .35em;
+}
+
+input[type=range]:disabled::-ms-fill-lower{
+  background: grey;
+}
+
+input[type=range]:disabled::-ms-fill-upper{
+  background: grey;
+}
+
+input[type=range]::-ms-thumb {
+  border: none;
+  height: 4.4em;
+  width: 3em;
+  border-radius: 50% 50% 50% 50% / 30% 30% 70% 70%;
+  margin-top: -1.2em;
+  background: -webkit-linear-gradient(#fbfbfb, #e5e5e5);
+  background: -o-linear-gradient(#fbfbfb, #e5e5e5);
+  background: -moz-linear-gradient(#fbfbfb, #e5e5e5);
+  background: linear-gradient(#fbfbfb, #e5e5e5);
+  box-shadow: 0 .5em .7em #777;
+}
+
+input[type=range]:focus {
+  outline: none;
+}
+
+/************CSS Mobile for custom Scrollbar*************/
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
