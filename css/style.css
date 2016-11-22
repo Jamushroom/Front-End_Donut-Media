@@ -229,7 +229,7 @@ article#prefaceP{
 /**************CSS for Best Restaurants.php******************/
 section#bestRestaurantsSection{
   margin-top: 10%;
-  padding: 20px 5% 15px 5%;
+  padding: 20px 1.2em .8em 1.2em;
   border: solid 1px #D32353;
   box-shadow: -5px 0 #d32353;
   border-radius: 10px;
@@ -600,8 +600,7 @@ input[type=range]::-ms-thumb {
 }
 
 /****************** Mobile Media Query ***************************/
-/*@media (max-width:414px){*/
-@media (max-width:1024px){
+@media only screen and (max-device-width: 967px) {
 #Header {
   width: 100%;
   background-color: #6c1779;
@@ -675,23 +674,43 @@ h1.subPageTitle{
   text-align: center;
 
 }
-#button {
-  height: 50px;
-  width: 80%;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 5px;
+/*****************CSS Mobile for Button******************************/
+.button{
+  height: 2.3em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0 .5em 0 .5em;
+  border-radius: .35em;
   text-decoration: none;
   border: none;
   outline: none;
   color: #EDEDED;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 2em;
   font-family: 'Hind', sans-serif;
   text-align: center;
   font-weight: 500;
+}
+
+.gradientcolor{
+  background: -webkit-linear-gradient(#D32353, #99163A);
+  background: -o-linear-gradient(#D32353, #99163A);
+  background: -moz-linear-gradient(#D32353, #99163A);
+  background: linear-gradient(#D32353, #99163A);
+}
+
+.gradientcolor:hover{
+  background: -webkit-linear-gradient(#D03761, #AF153F);
+  background: -o-linear-gradient(#D03761, #AF153F);
+  background: -moz-linear-gradient(#D03761, #AF153F);
+  background: linear-gradient(#D03761, #AF153F);
+}
+
+.gradientcolor:active{
+  background: -webkit-linear-gradient(#CC2251, #99163A );
+  background: -o-linear-gradient(#CC2251, #99163A );
+  background: -moz-linear-gradient(#CC2251, #99163A );
+  background: linear-gradient(#CC2251, #99163A );
 }
 
 /*****************CSS Mobile for termsAndConditions.php***************/
@@ -730,10 +749,10 @@ li {
 /**************CSS Mobile for Best Restaurants.php******************/
 section#bestRestaurantsSection{
   margin-top: 10%;
-  padding: 20px 5% 15px 5%;
+  padding: 20px 1em .5em 1em;
   border: solid 1px #D32353;
   box-shadow: -5px 0 #d32353;
-  border-radius: 10px;
+  border-radius: .6em;
   background-color: #EEEEEE;
   color: #111;
 }
@@ -744,17 +763,17 @@ section#bestRestaurantsSection{
 
 select{
   width: 100%;
-  height: 40px;
+  height: 2.3em;
   margin: 5px 0 15px 0;
-  padding: 0 8px;
+  padding: 0 .5em;
   border: solid 3px #D32353;
-  border-radius: 7px;
+  border-radius: .3em;
   box-shadow: 0 2.5px 2.5px 0 #CCC;
   color: #666;
-  font-size: 18px;
+  font-size: 2em;
   background-image: url(../img/dropdwn_chevron.svg);
   background-origin: content-box;
-  background-size: 15px;
+  background-size: .7em;
   background-repeat: no-repeat;
   background-position: right;
   -webkit-appearance: none;
