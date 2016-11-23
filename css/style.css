@@ -559,7 +559,7 @@ h6{
 .indexTitle{
   font-size: 4em;
   text-align: center;
-  margin: 3em auto 1.5em auto;
+  margin: 3em auto 5.5em auto;
   max-width: 12em;
 }
 
@@ -599,7 +599,7 @@ input.fb-login-button:disabled{
 
 .termsAndConditionsWrapper{
   max-width: 100%;
-  margin: 5.5em 9em;
+  margin: 5.5em 11em;
 }
 
 .termsAndConditionsWrapper input{
