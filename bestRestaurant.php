@@ -9,7 +9,7 @@
 </head>
 <body>
   <div class="mainWrapper">
-    <h1 class="subPageTitle">De smaak van Leeuwarden</h1>
+    <h1 class="subPageTitle">De Smaak van Leeuwarden</h1>
     <h3 id="choiceTitle">Maak hieronder een keuze van de 3 beste locale restaurants:</h3>
     <section id="bestRestaurantsSection">
 
