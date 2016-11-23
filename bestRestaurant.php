@@ -28,13 +28,13 @@
       </select>
 
       <h6>Keuze 2</h6>
-      <select name="choice2" id="choice1">
+      <select name="choice2" id="choice2">
         <option value="" hidden="hidden">Maak een keuze</option>
         <option value="1">Link to database</option>
       </select>
 
       <h6>Keuze 3</h6>
-      <select name="choice3" id="choice1">
+      <select name="choice3" id="choice3">
         <option value="" hidden="hidden">Maak een keuze</option>
         <option value="1">Link to database</option>
       </select>
