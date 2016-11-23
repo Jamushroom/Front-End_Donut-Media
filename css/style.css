@@ -10,10 +10,6 @@ body{
   background-image: url(../img/background.jpg);
 }
 
-p{
-  margin: 16px 0
-}
-
 h1{
   font-size: 70px;
 }
@@ -486,7 +482,7 @@ article.articleEP{
   font-size: 18px;
   line-height: 1.4em;
   margin-top: 20%;
-  padding: 0 20px;
+  padding: 20px;
   border: solid 1px #D32353;
   box-shadow: -5px 0 #d32353;
   border-radius: 10px;
