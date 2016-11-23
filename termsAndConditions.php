@@ -85,9 +85,12 @@
             <li>the use of, change to, or non-availability of the website and the information provided on or via the website;
             </li>
             <li>the use of, change to, or non-availability of the hyperlinks to third-party websites and the information provided on or via such websites.
-            </li><br>
-            <span class="boldText">Intellectual property.</span> The NHL owns the copyright to the website and the information contained thereon, unless expressly specified otherwise. It is permitted to use, download or print this information for personal use. It is expressly forbidden to use this information for any other purpose, particularly for commercial use.
+            </li>
           </ul>
+        </p>
+
+        <p>
+          <span class="boldText">Intellectual property.</span> The NHL owns the copyright to the website and the information contained thereon, unless expressly specified otherwise. It is permitted to use, download or print this information for personal use. It is expressly forbidden to use this information for any other purpose, particularly for commercial use.
         </p>
 
         <p>
@@ -95,7 +98,7 @@
         Complaints. In the event of any complaints regarding the website, please contact the content management department: s.j.velthuis@nhl.nl.
         </p>
 
-        <span class="boldText">Privacy Statement</span>
+        <h3 class="boldText">Privacy Statement</h3>
 
         <p>
         <span class="boldText">Werkingssfeer.</span> Dit Privacy Statement is uitsluitend van toepassing op het gebruik van de websites van Stichting NHL (NHL). Dit betekent onder meer dat dit Privacy Statement niet van toepassing is op websites van derden die door middel van links met de websites van de NHL zijn verbonden.

@@ -303,7 +303,7 @@ label {
 }
 
 .regular-checkbox:checked + label:after {
-  content: '\2713';
+  content: '\2714';
   font-size: 30px;
   position: absolute;
   top: -7px;
@@ -708,15 +708,18 @@ article#prefaceP{
 
 /*****************CSS Mobile for termsAndConditions.php***************/
 article.articleTAC{
-  width: 95%;
-  max-height: 100%;
+  max-height: 1000px;
   overflow-y: scroll;
-  margin: 0 auto 0 auto;
+  margin: 20% auto 0 auto;
   background-color: #EEEEEE;
   color: #222222;
-  padding: 10px;
-  height: 80%;
+  padding: 20px 40px;
   overflow-x: hidden;
+  border: solid .2em #D32353;
+  box-shadow: -.5em 0 #d32353;
+  border-radius: .35em;
+
+ height: 1000px;
 }
 
 .buttonStartEnquête{
@@ -732,7 +735,7 @@ p {
 }
 
 li {
-  font-size: 14px;
+  font-size: 2em  ;
 }
 
 /**************CSS Mobile for Best Restaurants.php******************/
@@ -803,15 +806,15 @@ label {
 .regular-checkbox + label {
   background-color: #fafafa;
   border:.08em solid #cacece;
-  padding: .45em;
+  padding: .7em;
   border-radius: .2em;
   display: inline-block;
   position: relative;
 }
 
 .regular-checkbox:checked + label:after {
-  content: '\2713';
-  font-size: 1.5em;
+  content: '\2714';
+  font-size: 2.2em;
   position: absolute;
   top: -0.25em;
   color: #D32353;
@@ -821,6 +824,7 @@ label {
   display: inline;
   margin-left: 2%;
   color: #222;
+  font-size: 2.5em;
 }
 
 /*slider css*/
