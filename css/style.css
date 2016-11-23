@@ -10,9 +10,6 @@ body{
   background-image: url(../img/background.jpg);
 }
 
-p{
-  margin: 16px 0
-}
 
 h1{
   font-size: 70px;
@@ -228,7 +225,7 @@ article#prefaceP{
 /**************CSS for Best Restaurants.php******************/
 section#bestRestaurantsSection{
   margin-top: 10%;
-  padding: 1.5em 1em 0 1em;
+  padding: 20px;
   border: solid 1px #D32353;
   box-shadow: -5px 0 #d32353;
   border-radius: 10px;
@@ -244,7 +241,7 @@ section#bestRestaurantsSection{
 select{
   width: 100%;
   height: 40px;
-  margin: 5px 0 15px 0;
+  margin: 5px 0 20px 0;
   padding: 0 8px;
   border: solid 3px #D32353;
   border-radius: 7px;
@@ -261,10 +258,14 @@ select{
   appearance: none;
 }
 
+#choice3{
+  margin-bottom: 0px;
+}
+
 /******************CSS for restaurant score*******************/
 section#RestaurantScoreSection{
   margin-top: 10%;
-  padding: 15px 3% 20px 3%;
+  padding: 20px;
   border: solid 1px #D32353;
   box-shadow: -5px 0 #d32353;
   border-radius: 10px;
@@ -338,6 +339,10 @@ label {
 
 .uitstekendT{
   text-align: right;
+}
+
+#lastslidercontainer p{
+  margin-bottom: 0px;
 }
 
 /*Chrome etc*/

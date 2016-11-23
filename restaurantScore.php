@@ -69,7 +69,7 @@
       </div>
 
       <!-- slideer 5 -->
-      <div class="sliderContainer">
+      <div class="sliderContainer" id="lastslidercontainer">
         <input type="checkbox" id="checkbox-5" class="regular-checkbox" onclick="disable()">
         <label for="checkbox-5" style="top: 5px"></label>
         <label class="question" for="checkbox-5">Snelle/vriendelijke bediening
