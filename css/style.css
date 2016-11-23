@@ -728,7 +728,7 @@ span.boldText{
 }
 
 p {
-  font-size: 14px;
+  font-size: 1.5em;
 }
 
 li {
@@ -770,7 +770,6 @@ select{
   appearance: none;
 }
 
-
 /*****************CSS Mobile for Restaurant Score***************/
 section#RestaurantScoreSection{
   margin-top: 10%;
@@ -800,7 +799,6 @@ label {
 .regular-checkbox {
   display: none;
 }
-
 
 .regular-checkbox + label {
   background-color: #fafafa;
@@ -968,6 +966,27 @@ input[type=range]:focus {
   outline: none;
 }
 
+/*******************CSS Mobile for Endpage*****************************/
+#endTitle{
+  text-align: center;
+}
+
+article.articleEP{
+  font-size: 1.5em;
+  line-height: 2em;
+  max-width: 920px;
+  width: 100%;
+  max-height: 500px;
+  margin: 20% auto 0 auto;
+  background-color: #EEEEEE;
+  border-radius: 5px 7px 7px 5px;
+  border: solid .2em #D32353;
+  box-shadow: -.5em 0 #d32353;
+  border-radius: .45em;
+  padding: 30px 40px;
+  color: #222222;
+  box-sizing: border-box;
+}
 /************CSS Mobile for custom Scrollbar*************/
 ::-webkit-scrollbar {
   width: 6px;
